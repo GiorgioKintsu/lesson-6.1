@@ -1,0 +1,50 @@
+.logo{
+	display: inline-block;
+	margin-right: 50px;
+}
+.navigation{
+	display: inline-block;
+}
+.nav-li{
+	display: inline-block;
+	margin-right: 22px;
+}
+.header-wraper{
+	background-color: lightblue;
+	padding: 30px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+/*თუ როგორ ვეხმარებით header - ის ნაწილს*/
+body{
+	height: 1800px;
+	/*padding-top: 76px; */                                                                   
+}
+.section-news{
+	margin-top: 76px;
+}
+.wrapper-box{
+	width: 400px;
+	height: 400px;
+	background-color: yellow;
+	position: relative;
+}
+.child-box{
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
+.child-box2{
+	width: 150px;
+	height: 150px;
+	background-color: darkred;
+	position: absolute;
+	top: 100px;
+	left: 140px;
+}
